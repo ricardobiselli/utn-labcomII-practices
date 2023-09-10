@@ -49,6 +49,10 @@ main {
     padding: 0 20px;
 }
 
+.formulario {
+   float: center;
+}
+
 .right {
     background-color: #e5e5e5;
     float: left;
