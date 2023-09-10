@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    background: rgb(245, 245, 245);
+}
+
+h1 {
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border: blue solid 2px;
+    max-width: 40%;
+    list-style-type: none;
+    padding: 10px ;
+}
+
+ul a{
+    color: orange;
+    text-decoration: underline;
+}
+
+#neuquen, #rio-negro{
+    color: green;
+}
+
