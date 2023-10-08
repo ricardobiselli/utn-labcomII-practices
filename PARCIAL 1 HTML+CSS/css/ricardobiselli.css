@@ -1,0 +1,111 @@
+*{
+    font-family: Verdana;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+.cabecera {
+    display: flex;
+
+    background-color: rgb(60, 66, 95);
+    color: white;
+}
+
+.profile-picture {
+    align-content: center;
+    max-height: 200px;
+    border-radius: 50%;
+    padding: 5%;
+
+}
+
+
+.presentacion {
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 2em;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.datos-personales {
+    
+    background: #d1d0d0;
+    padding: 1%;
+
+}
+
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}
+
+h3 {
+    background-color: rgb(183, 176, 189);
+    padding: 2px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.my-button:hover {
+    background-color: #0cb3aa; 
+}
+
+.my-button:active {
+    background-color: #d3b50b; 
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.datos {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.datos.title {
+    font-weight: bold;
+}
+
+.datospersonales {
+    grid-column: 1 / 3; 
+    background-color: rgb(78, 151, 117); 
+    color: white; 
+}
+
+.datos.linkedin {
+    grid-column: 1;
+    grid-row: span 2;
+    background-color: rgb(190, 255, 233); 
+}
+
+.datos:not(.datospersonales):not(.linkedin) {
+    grid-column: 2;
+    grid-row: auto;
+    background-color: rgb(231, 227, 227);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\contact.css">
+</head>
+
+<body>
+    <form action="process-form.php" method="POST">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre...">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su e-mail..." required>
+        </div>
+
+        <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Ingrese subject..." required>
+        </div>
+
+        <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="" required></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+        <div>
+            <button class="return" onclick="window.location.href='ricardobiselli.html'">Volver</button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>

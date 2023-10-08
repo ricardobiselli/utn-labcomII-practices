@@ -25,6 +25,8 @@ button {
 }
 #resultado-final {
     height: 50px; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     overflow: hidden;
     margin: 0;
     padding: 0;
