@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%; 
+    max-width: 400px; 
+    height: auto; 
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid coral;
+    background-color: rgb(176, 175, 177);
+    padding: 20px; 
+}
+
+#usuario-container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#seleccion-domicilio {
+    margin-bottom: 30px;
+}
+
