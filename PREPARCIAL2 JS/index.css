@@ -1,0 +1,30 @@
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#logo {
+    height: 180px;
+}
+
+.product-image {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    margin-bottom: 50px;
+}
