@@ -1,0 +1,33 @@
+* {
+    font-family: Helvetica;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#leyenda, #resultado-final {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 20px;
+    background-color: rgb(111, 178, 255);
+    border-style:outset;
+}
+#resultado-final {
+    height: 50px; 
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-style: dotted;
+    border-width: 1px;
+}

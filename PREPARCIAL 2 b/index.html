@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency exchange</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <form>
+        <label id="leyenda">cantidad ARS: </label>
+        <input id="pesos" type="number"><br>
+        <label id="leyenda">Convertir a: </label>
+        <select id="selector-monedas">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+        </select><br>
+        <button type="button" id="button-calculate" onclick="calcularConversion()">Convertir</button>
+        <p id="resultado-final"></p>
+    </form>
+
+</body>
+
+</html>

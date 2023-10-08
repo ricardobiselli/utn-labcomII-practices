@@ -38,7 +38,7 @@ function calcularPrecio() {
         var total = costo + (consumoNum * precioPorDistrito[tarifa]);
         var totalConIVA = total * (1 + iva[tipoIva]);
 
-        alert("El costo total con IVA es: " + totalConIVA.toFixed(2)); // Display the total with two decimal places
+        alert("El costo total con IVA es: " + totalConIVA.toFixed(2));
     } else {
         alert("Error en los valores seleccionados.");
         return;
@@ -46,4 +46,3 @@ function calcularPrecio() {
 
 
 }
-
